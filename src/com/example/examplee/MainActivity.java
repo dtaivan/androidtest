@@ -31,7 +31,7 @@ public class MainActivity extends Activity  {
         attempts.setText(Integer.toString(counter));
        // back = (MainActivity)createDisplayContext(display);
         login = (Button)findViewById(R.id.button1);
-    }
+    }//dafsdfafda
     public void login(View view){
         if(username.getText().toString().equals("admin") && 
         password.getText().toString().equals("admin")){
