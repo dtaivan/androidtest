@@ -14,8 +14,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity  {
-	
+	//afdasfasd
 	//ddddddd
+	//gogo
+	//test2
 	//test2
 	private EditText  username=null;
 	   private EditText  password=null;
