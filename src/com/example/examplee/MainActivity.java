@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity  {
+	//test https://www.youtube.com/watch?v=ZK20jVt7XEc
 	//test old
 	//afdasfasd
 	//ddddddd
