@@ -35,11 +35,11 @@ public class MainActivity extends Activity  {
     public void login(View view){
         if(username.getText().toString().equals("admin") && 
         password.getText().toString().equals("admin")){
-        Toast.makeText(getApplicationContext(), "Redirecting...", 
+        Toast.makeText(getApplicationContext(), "Redirecting...dfdddddddd", 
         Toast.LENGTH_SHORT).show();
         counter++;
      }  else{
-         Toast.makeText(getApplicationContext(), "Wrong Credentials",
+         Toast.makeText(getApplicationContext(), "Wrong Credentials     ",
         	      Toast.LENGTH_SHORT).show();
         	      attempts.setBackgroundColor(Color.RED);	
         	      counter--;
@@ -62,8 +62,6 @@ public class MainActivity extends Activity  {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_settings) {
         	MainActivity.setBackgroundColor(android.graphics.Color.RED);
