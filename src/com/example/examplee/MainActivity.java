@@ -15,9 +15,8 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity  {
 	
-	
-	//Tsedendamba
 	//ddddddd
+	//test2
 	private EditText  username=null;
 	   private EditText  password=null;
 	   private TextView attempts;
